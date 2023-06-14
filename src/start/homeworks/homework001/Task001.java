@@ -12,7 +12,7 @@ public class Task001 {
         int triangle = 0;
         int fact = 1;
 
-        for (int i = 1; i < n; i++) {
+        for (int i = 1; i <= n; i++) {
             triangle += i;
             fact = fact * i;
         }
@@ -20,6 +20,5 @@ public class Task001 {
         System.out.printf("Triangle = %d, fact = %d", triangle, fact);
 
         sc.close();
-
     }
 }
