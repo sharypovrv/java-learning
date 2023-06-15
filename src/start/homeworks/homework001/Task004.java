@@ -11,12 +11,12 @@ public class Task004 {
 
     public static void main(String[] args) {
         
-        String line = "2? + ?5 = 69";
+        String line = "2? + ?5 = 65";
         System.out.println(line);
 
         String tempLine = "";
         boolean isSolution = false;
-        String solution = null;
+        String solution = "отсутствует";
 
         for (int i = 0; i < 10; i++) {
             for (int j = 0; j < line.length(); j++) {
@@ -30,16 +30,13 @@ public class Task004 {
             String[] array = tempLine.split(" ");
 
             if ((Integer.parseInt(array[0]) + Integer.parseInt(array[2])) == Integer.parseInt(array[4])) {
-                isSolution = true;
                 solution = tempLine;
             }
 
             tempLine = "";
         }
 
-        if (isSolution) {
-            System.out.printf("Решение: %s.\n", solution);
-        }
+        System.out.printf("Решение: %s.\n", solution);
 
     }
 }
