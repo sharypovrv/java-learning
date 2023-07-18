@@ -1,0 +1,1 @@
+1 : Human{name='Ivan', fullName='Ivanov'}
