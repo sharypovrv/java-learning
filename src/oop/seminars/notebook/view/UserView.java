@@ -68,7 +68,6 @@ public class UserView {
                         break;
                 }
             } catch (IllegalArgumentException e) {
-                userController.writeAllUsers();
                 System.out.println("Неправильная команда!");
             }
         }
