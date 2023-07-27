@@ -16,7 +16,7 @@ import java.io.FileReader;
 public class Task003 {
     public static void main(String[] args) {
         try {
-            File file = new File("./src/start/homeworks/homework002/task003/text.txt");
+            File file = new File("./src/start/homeworks/homework002/task003/test1.txt");
             FileReader fileReader = new FileReader(file);
             char[] chars = new char[(int) file.length()];
             fileReader.read(chars);
