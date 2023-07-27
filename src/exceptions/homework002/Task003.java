@@ -37,6 +37,8 @@ public class Task003 {
             int[] abc = {1, 2};
             abc[3] = 9;
 
+            // изменил очередность catch - Throwable как самый широкий поставил последним
+
         } catch (NullPointerException ex) {
             System.out.println("Указатель не может указывать на null!");
         } catch (IndexOutOfBoundsException ex) {
@@ -46,7 +48,7 @@ public class Task003 {
         }
     }
 
-    public static void printSum(Integer a, Integer b) {
+    public static void printSum(Integer a, Integer b) { // убрал проброс исключения
         System.out.println(a + b);
     }
 }
