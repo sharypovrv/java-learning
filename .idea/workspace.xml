@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c702a117-33e6-432d-810f-0a7ef9761c83" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/Controller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/View.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MS200.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MeteoSensor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MeteoStore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/ST500Info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/SensorTemperature.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Calculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/CalculableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/ICalculableFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/ViewCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Company.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/JobAgency.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Master.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Observer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task003.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2QnrinouQyFPKfWBHthSmEAt2OE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Coding/Geekbrains/javaLearning/src/oop/seminars/seminar004/fileRepository&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Coding\Geekbrains\javaLearning\src\oop\seminars\seminar004\fileRepository" />
+      <recent name="D:\Coding\Geekbrains\javaLearning\src\start\seminars\seminar002" />
+      <recent name="D:\Coding\Geekbrains\javaLearning\src\start\homeworks\homework001" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="oop.seminars" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Draft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Draft" />
+      <module name="javaLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.homework003.Main" />
+      <module name="javaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.homework003.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.homework002.Task004" />
+      <module name="javaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.homework002.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exceptions.homework002.Task002" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.homework002.Task002" />
+      <module name="javaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.homework002.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exceptions.homework002.Task003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.homework002.Task003" />
+      <module name="javaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="exceptions.homework002.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.exceptions.homework002.Task002" />
+        <item itemvalue="Application.Task004" />
+        <item itemvalue="Application.exceptions.homework002.Task003" />
+        <item itemvalue="Application.Draft" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c702a117-33e6-432d-810f-0a7ef9761c83" name="Changes" comment="" />
+      <created>1686000317943</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1686000317943</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="6967c9ae-8df7-4ace-ad89-a689e356a91f">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/Coding/Geekbrains/javaLearning/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="b87c853a-870d-4665-b5c8-6589108c6e03">
+          <value>
+            <State />
+          </value>
+        </entry>
+        <entry key="dcd51523-3098-4e12-84c3-c70c229aa358">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="6967c9ae-8df7-4ace-ad89-a689e356a91f" value="TOOL_WINDOW" />
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
