@@ -1,4 +1,4 @@
-package oop.seminars.seminar007.Adapter.meteo;
+package oop.seminars.seminar007.adapter.meteo;
 
 interface SensorTemperature{
 	int identifier(); // идентификатор датчика

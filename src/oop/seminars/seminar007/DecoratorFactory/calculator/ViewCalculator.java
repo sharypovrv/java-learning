@@ -1,4 +1,4 @@
-package oop.seminars.seminar007.DecoratorFactory.calculator;
+package oop.seminars.seminar007.decoratorFactory.calculator;
 
 import java.util.Scanner;
 
@@ -12,27 +12,27 @@ public class ViewCalculator {
 
     public void run() {
         while (true) {
-            int primaryArg = promptInt("Введите первый аргумент: ");
+            int primaryArg = promptInt("Input first argument: ");
             Calculable calculator = calculableFactory.create(primaryArg);
             while (true) {
-                String cmd = prompt("Введите команду (*, +, =) : ");
+                String cmd = prompt("Input command (*, +, =) : ");
                 if (cmd.equals("*")) {
-                    int arg = promptInt("Введите второй аргумент: ");
+                    int arg = promptInt("Input second argument: ");
                     calculator.multi(arg);
                     continue;
                 }
                 if (cmd.equals("+")) {
-                    int arg = promptInt("Введите второй аргумент: ");
+                    int arg = promptInt("Input second argument: ");
                     calculator.sum(arg);
                     continue;
                 }
                 if (cmd.equals("=")) {
                     int result = calculator.getResult();
-                    System.out.printf("Результат %d\n", result);
+                    System.out.printf("Result %d\n", result);
                     break;
                 }
             }
-            String cmd = prompt("Еще посчитать (Y/N)?");
+            String cmd = prompt("Calculate more (Y/N)?");
             if (cmd.equals("Y")) {
                 continue;
             }

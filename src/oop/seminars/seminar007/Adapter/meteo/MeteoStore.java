@@ -1,4 +1,4 @@
-package oop.seminars.seminar007.Adapter.meteo;
+package oop.seminars.seminar007.adapter.meteo;
 
 class MeteoStore {
     // сохранение данных в базу

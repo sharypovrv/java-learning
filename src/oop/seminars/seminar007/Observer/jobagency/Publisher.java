@@ -1,4 +1,4 @@
-package oop.seminars.seminar007.Observer.jobagency;
+package oop.seminars.seminar007.observer.jobagency;
 
 // Это интерфейс рассылки наблюдателям
 // Он может регистрировать наблюдателей, избавляться от них, и рассылать им всем сообщения

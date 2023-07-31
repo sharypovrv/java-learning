@@ -5,30 +5,100 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c702a117-33e6-432d-810f-0a7ef9761c83" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MS200.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MeteoSensor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MeteoStore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/ST500Info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/SensorTemperature.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Calculable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/CalculableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/ICalculableFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/ViewCalculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Company.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/JobAgency.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Master.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Observer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Publisher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/ST500Adapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/CalculateDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/CalculatorFactoryWithLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/log/ConsoleLogger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/log/Logger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/builder/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/builder/item/Characteristic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/builder/item/Item.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/builder/item/impl/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/builder/item/impl/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/builder/shop/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/pubServer/Subscriber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/BaseHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/BaseHero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/Druid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/Druid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/Dwarf.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task001.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/seminar002/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/seminar002/Task003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/VetClinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/VetClinic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/GoldFish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/GoldFish.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Duck.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Eagle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Eagle.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Lion.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Shark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Shark.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/personal/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/personal/Doctor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/personal/Veterinarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/personal/Veterinarian.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/db.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/mapper/Mapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/mapper/impl/UserMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/repository/GBRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/repository/impl/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/util/Commands.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/util/DBConnector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/view/UserView$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/notebook/view/UserView.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task001/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task001/Task001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task002/Task002.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task002/Task002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task003/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task003/Task003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task004/Task004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task004/Task004.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework005/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework005/Task001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework006/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework006/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar002/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar002/Task001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar003/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar003/Task001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar004/Task002.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar004/Task002.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar004/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar004/Task003.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar005/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar005/Task001.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar006/task002/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar006/task002/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/db.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/db.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/mapper/Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/mapper/Mapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/mapper/impl/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/mapper/impl/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/repository/GBRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/repository/GBRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/repository/impl/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/repository/impl/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/util/Commands.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/util/Commands.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/util/DBConnector.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/util/DBConnector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/notebook/view/UserView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/notebook/view/UserView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MS200.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MS200.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MeteoSensor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MeteoSensor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MeteoStore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/MeteoStore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/ST500Info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/ST500Info.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/SensorTemperature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Adapter/meteo/SensorTemperature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Calculable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Calculable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/CalculableFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/CalculableFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Calculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Calculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/ICalculableFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/ICalculableFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/ViewCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/DecoratorFactory/calculator/ViewCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Company.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Company.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/JobAgency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/JobAgency.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Master.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Master.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Observer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Observer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Publisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Publisher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/seminars/seminar007/Observer/jobagency/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,52 +128,35 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Coding/Geekbrains/javaLearning/src/oop/seminars/seminar004/fileRepository&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;File.Encoding&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "D:/Coding/Geekbrains/javaLearning/src/oop/seminars/seminar004/fileRepository",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\Coding\Geekbrains\javaLearning\src\oop\seminars\seminar004\fileRepository" />
       <recent name="D:\Coding\Geekbrains\javaLearning\src\start\seminars\seminar002" />
       <recent name="D:\Coding\Geekbrains\javaLearning\src\start\homeworks\homework001" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Geekbrains\javaLearning" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="oop.seminars" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Draft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Draft" />
-      <module name="javaLearning" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.oop.seminars.seminar007.observer.jobagency.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.homework003.Main" />
       <module name="javaLearning" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="exceptions.homework003.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Task004" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.homework002.Task004" />
-      <module name="javaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="exceptions.homework002.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +177,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="exceptions.homework002.Task003" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="exceptions.homework002.Task003" />
+    <configuration name="oop.seminars.seminar007.Adapter.meteo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.seminars.seminar007.Adapter.meteo.Main" />
       <module name="javaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="exceptions.homework002.*" />
+          <option name="PATTERN" value="oop.seminars.seminar007.Adapter.meteo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oop.seminars.seminar007.decoratorFactory.calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.seminars.seminar007.decoratorFactory.calculator.Main" />
+      <module name="javaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.seminars.seminar007.decoratorFactory.calculator.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="oop.seminars.seminar007.observer.jobagency.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.seminars.seminar007.observer.jobagency.Main" />
+      <module name="javaLearning" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="oop.seminars.seminar007.observer.jobagency.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.oop.seminars.seminar007.observer.jobagency.Main" />
+        <item itemvalue="Application.oop.seminars.seminar007.decoratorFactory.calculator.Main" />
+        <item itemvalue="Application.oop.seminars.seminar007.Adapter.meteo.Main" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.exceptions.homework002.Task002" />
-        <item itemvalue="Application.Task004" />
-        <item itemvalue="Application.exceptions.homework002.Task003" />
-        <item itemvalue="Application.Draft" />
       </list>
     </recent_temporary>
   </component>

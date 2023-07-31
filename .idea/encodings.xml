@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
-    <file url="file://$PROJECT_DIR$/src/oop/seminars/notebook/mapper/Mapper.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/oop/seminars/notebook/model/User.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/oop/seminars/notebook/repository/GBRepository.java" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/src/oop/seminars/notebook/view/UserView.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/oop/notebook/mapper/Mapper.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/oop/notebook/model/User.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/oop/notebook/repository/GBRepository.java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/oop/notebook/view/UserView.java" charset="windows-1251" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

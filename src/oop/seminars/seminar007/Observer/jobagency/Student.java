@@ -1,4 +1,4 @@
-package oop.seminars.seminar007.Observer.jobagency;
+package oop.seminars.seminar007.observer.jobagency;
 
 // Студент, цепляется за любую работу, которая лучше текущей
 public class Student implements Observer {

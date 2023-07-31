@@ -1,4 +1,4 @@
-package oop.seminars.seminar007.Adapter.meteo;
+package oop.seminars.seminar007.adapter.meteo;
 
 public class Main {
 
@@ -12,5 +12,10 @@ public class Main {
         meteoDb.save(ms200_1);
 
         // Здесь надо вызвать метод getData у класса ST500Info. Полученные данные отправить в метод save объекта meteoDb
+
+        MeteoSensor st500Info = new ST500Adapter(new ST500Info().getData());
+        meteoDb.save(st500Info);
+
+
     }
 }

@@ -1,4 +1,4 @@
-package oop.seminars.seminar007.Observer.jobagency;
+package oop.seminars.seminar007.observer.jobagency;
 
 // Наблюдатель, он будет получать уведомления
 // В данном случае это человек, ищущий работу, получает уведомления от рекрутинговского агенства
