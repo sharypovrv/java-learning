@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class View {
 
-    boolean isRunning = true;
-    Controller controller;
+    private boolean isRunning = true;
+    private final Controller controller;
 
     public View(Controller controller) {
         this.controller = controller;

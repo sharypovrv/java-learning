@@ -5,11 +5,9 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class TxtLogger implements Logger {
-    String fileName;
-    File file;
+    private final File file;
 
     public TxtLogger(String fileName) {
-        this.fileName = fileName;
         file = new File(fileName);
     }
 

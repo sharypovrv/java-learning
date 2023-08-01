@@ -4,58 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c702a117-33e6-432d-810f-0a7ef9761c83" name="Changes" comment="mod gitignore">
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/Controller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/Operation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/Readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/impl/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/impl/Multiplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/impl/Subtraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/impl/Summation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/log/Logger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/oop/calculator/log/TxtLogger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+    <list default="true" id="c702a117-33e6-432d-810f-0a7ef9761c83" name="Changes" comment="oop hw 7">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/BaseHero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/BaseHero.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/Druid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/Druid.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/Dwarf.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/Lesson_08/Ex004/Dwarf.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework002/Task004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/View.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/seminar002/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/seminar002/Task003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/notebook/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/notebook/model/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/notebook/view/UserView.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/notebook/view/UserView.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/VetClinic.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/VetClinic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/Cat.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/Dog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/GoldFish.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/home/impl/GoldFish.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Duck.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Duck.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Eagle.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Eagle.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Lion.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Lion.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Shark.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/clients/wild/impl/Shark.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/personal/Doctor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/personal/Doctor.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/personal/Veterinarian.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/oop/seminars/interfaces/core/personal/Veterinarian.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework001/Task004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task001/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task001/Task001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task002/Task002.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task002/Task002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task003/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task003/Task003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task004/Task004.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework002/task004/Task004.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework005/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework005/Task001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework006/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/homeworks/homework006/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar002/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar002/Task001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar003/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar003/Task001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar004/Task002.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar004/Task002.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar004/Task003.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar004/Task003.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar005/Task001.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar005/Task001.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar006/task002/Cat.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/start/seminars/seminar006/task002/Cat.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/calculator/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/calculator/Readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/calculator/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/calculator/View.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/oop/calculator/log/TxtLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/calculator/log/TxtLogger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +159,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690845447393</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="oop hw 7">
+      <created>1690919266984</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1690919266984</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +224,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="oop seminar 007" />
     <MESSAGE value="mod gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="mod gitignore" />
+    <MESSAGE value="oop hw 7" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop hw 7" />
   </component>
 </project>
