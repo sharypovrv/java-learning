@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c702a117-33e6-432d-810f-0a7ef9761c83" name="Changes" comment="oop hw 7">
+    <list default="true" id="c702a117-33e6-432d-810f-0a7ef9761c83" name="Changes" comment="oop hw 7 mod 1">
+      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/FileCreator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/exceptions/BirthdayException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/exceptions/FullNameException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/exceptions/PhoneNumberException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exceptions/homework003/exceptions/SexException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/calculator/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/calculator/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/calculator/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/calculator/View.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/oop/calculator/log/TxtLogger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/oop/calculator/log/TxtLogger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/Draft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/Draft.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/View.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Draft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Draft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/homework003/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/homework003/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/homework003/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/homework003/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exceptions/homework003/View.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exceptions/homework003/View.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +65,21 @@
       <recent name="D:\Coding\Geekbrains\javaLearning\src\start\homeworks\homework001" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Coding\Geekbrains\javaLearning\src\exceptions\homework003\data" />
       <recent name="D:\Coding\Geekbrains\javaLearning" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="oop.seminars" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.oop.calculator.Main">
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Draft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Draft" />
+      <module name="javaLearning" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="exceptions.homework003.Main" />
       <module name="javaLearning" />
@@ -80,19 +99,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="oop.calculator.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="oop.seminars.seminar007.Adapter.meteo.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.seminars.seminar007.Adapter.meteo.Main" />
-      <module name="javaLearning" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="oop.seminars.seminar007.Adapter.meteo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -128,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.Draft" />
         <item itemvalue="Application.oop.calculator.Main" />
         <item itemvalue="Application.oop.seminars.seminar007.observer.jobagency.Main" />
         <item itemvalue="Application.oop.seminars.seminar007.decoratorFactory.calculator.Main" />
-        <item itemvalue="Application.oop.seminars.seminar007.Adapter.meteo.Main" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690919266984</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="oop hw 7 mod 1">
+      <created>1690919820389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1690919820389</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -225,6 +238,7 @@
     <MESSAGE value="oop seminar 007" />
     <MESSAGE value="mod gitignore" />
     <MESSAGE value="oop hw 7" />
-    <option name="LAST_COMMIT_MESSAGE" value="oop hw 7" />
+    <MESSAGE value="oop hw 7 mod 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop hw 7 mod 1" />
   </component>
 </project>

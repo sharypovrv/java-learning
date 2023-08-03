@@ -1,8 +1,8 @@
-import java.util.Scanner;
 
 public class Draft {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int a = scanner.nextInt();
+        String[] array = new String[5];
+        if (array[1] == null) System.out.println("sdsdf");
+        System.out.println(array[0]);
     }
 }

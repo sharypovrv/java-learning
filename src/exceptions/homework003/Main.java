@@ -1,7 +1,5 @@
 package exceptions.homework003;
 
-import java.util.Scanner;
-
 public class Main {
     /*
     Напишите приложение, которое будет запрашивать у пользователя следующие данные в произвольном порядке,
@@ -35,52 +33,9 @@ public class Main {
     пользователь должен увидеть стектрейс ошибки.
      */
     public static void main(String[] args) {
-
-        String textCommand = "Формат данных - " +
-                "\"Фамилия, имя, отчество, дата рождения, номер телефона, пол\" " +
-                "(для выхода введите 'q')\n" +
-                "Введите данные: ";
-
-        while(true) {
-            String line = prompt(textCommand);
-            if (line.toLowerCase().equals("q")) return;
-            String[] lines = line.split(" ");
-            if (parseCode(checkLength(lines, 6))) {
-
-                String lastname = lines[0];
-                String name = lines[1];
-                String surname = lines[2];
-                String birthDate = lines[3];
-                String phoneNumber = lines[4];
-                String male = lines[5];
-
-            }
-        }
-
-    }
-
-    private static int checkLength(String[] lines, int length) {
-        return Integer.compare(lines.length, length);
-    }
-
-    private static boolean parseCode(int code) {
-        switch (code) {
-            case -1 -> {
-                System.out.println("Введено слишком мало данных.");
-                return false;
-            }
-            case 1 -> {
-                System.out.println("Введено слишком много данных.");
-                return false;
-            }
-        }
-        return true;
-    }
-
-    private static String prompt(String message) {
-        Scanner in = new Scanner(System.in);
-        System.out.print(message);
-        return in.nextLine();
+        Controller controller = new Controller();
+        View view = new View(controller);
+        view.run();
     }
 
 }
