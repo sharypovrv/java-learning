@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c702a117-33e6-432d-810f-0a7ef9761c83" name="Changes" comment="exc hw 003">
-      <change afterPath="$PROJECT_DIR$/src/algorithms/lecture001/quickSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyShop/FileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyShop/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyShop/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyShop/Toy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyShop/ToyShop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/toyShop/db.txt" afterDir="false" />
+    <list default="true" id="c702a117-33e6-432d-810f-0a7ef9761c83" name="Changes" comment="add toyShop">
+      <change afterPath="$PROJECT_DIR$/src/algorithms/homework001/HeapSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/algorithms/homework001/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/javaLearning/Draft.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/Draft.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/View.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/javaLearning/exceptions/homework003/View.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Draft.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Draft.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +62,7 @@
       <recent name="oop.seminars" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.toyShop.Main">
+  <component name="RunManager" selected="Application.algorithms.homework001.Main">
     <configuration name="Draft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Draft" />
       <module name="javaLearning" />
@@ -90,12 +83,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oop.calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.calculator.Main" />
+    <configuration name="algorithms.homework001.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="algorithms.homework001.Main" />
       <module name="javaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.calculator.*" />
+          <option name="PATTERN" value="algorithms.homework001.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +96,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="oop.seminars.seminar007.observer.jobagency.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="oop.seminars.seminar007.observer.jobagency.Main" />
+    <configuration name="oop.calculator.Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="oop.calculator.Main" />
       <module name="javaLearning" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="oop.seminars.seminar007.observer.jobagency.*" />
+          <option name="PATTERN" value="oop.calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.algorithms.homework001.Main" />
         <item itemvalue="Application.toyShop.Main" />
         <item itemvalue="Application.Draft" />
         <item itemvalue="Application.Main" />
         <item itemvalue="Application.oop.calculator.Main" />
-        <item itemvalue="Application.oop.seminars.seminar007.observer.jobagency.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -190,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691023176490</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add toyShop">
+      <created>1693170836396</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1693170836396</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -251,6 +251,7 @@
     <MESSAGE value="oop hw 7" />
     <MESSAGE value="oop hw 7 mod 1" />
     <MESSAGE value="exc hw 003" />
-    <option name="LAST_COMMIT_MESSAGE" value="exc hw 003" />
+    <MESSAGE value="add toyShop" />
+    <option name="LAST_COMMIT_MESSAGE" value="add toyShop" />
   </component>
 </project>
