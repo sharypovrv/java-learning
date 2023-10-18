@@ -15,6 +15,7 @@ public class View {
 
         while(isRunning) {
             try {
+                System.out.println("Let's go!!!");
 
                 double firstNumber = doubleFromString("Enter first number: ");
                 String operation = operationFromString();
