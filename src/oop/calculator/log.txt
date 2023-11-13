@@ -3,3 +3,5 @@ Operation: 55.0 / 23.0 = 2.391304347826087
 Operation: 99.0 - 1555.0 = -1456.0
 Operation: 8.0 * 5.0 = 40.0
 Operation: 9.0 - 5.0 = 4.0
+Operation: 555.0 - 23.0 = 532.0
+Operation: 5.0 * 6.0 = 30.0

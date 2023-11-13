@@ -1,9 +1,22 @@
 import java.util.Random;
+import java.util.Scanner;
 
 public class Draft {
     public static void main(String[] args) {
-        Random random = new Random();
-        int sum = getSum(random);
+        Scanner sc = new Scanner(System.in);
+        boolean isWorking = true;
+        int sum = 0;
+
+        while (isWorking) {
+            if (sc.hasNextInt()) {
+                int number = sc.nextInt();
+                sum += number;
+            } else {
+                if (sc.nextLine().equals("ENTER")) {
+                    isWorking = false;
+                }
+            }
+        }
         System.out.println(sum);
     }
 
